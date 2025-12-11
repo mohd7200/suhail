@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#0e0e04;
+        }
+        form {
+            width: 300px;
+            background:rgb(239, 239, 236);
+            align-items:center;
+            padding: 15px;
+            border: 2px solid #444;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 6px;
+            margin: 6px 0;
+        }
+
+        .checkbox {
+            width: auto;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form>  
+
+        <label>Email:</label>
+        <input type="email" required>
+
+    
+        <label>Phone Number:</label>
+        <input type="tel" 
+               pattern="^[0-9]{10}$" 
+               title="Enter 10-digit phone number only"
+               required>
+
+
+        <label>Select Option:</label>
+        <select required>
+            <option value="">--Select--</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+
+
+        <label>
+            <input type="checkbox" class="checkbox" required>
+            I agree
+        </label>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

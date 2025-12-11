@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amazon -- Sketch Mockup (HTML only)</title>
+</head>
+<body>
+    <header>
+      <h1 align="center">AMAZON</h1>
+      <nav aria-label="Categories">
+        <ul>
+          <li><a href="#mobile">Mobile</a></li>
+          <li><a href="#bike">Bike</a></li>
+          <li><a href="#clothes">Clothes</a></li>
+          <li><a href="#chair">Chair</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section aria-label="Products">
+      <div class="row">
+        <!-- Card 1: Mobile (top-left) -->
+        <article id="mobile" class="product" aria-labelledby="mobileTitle">
+          <header>
+            <h2 id="mobileTitle">Mobile -- SuperPhone X</h2>
+          </header>
+          <div class="media" aria-hidden="true">[Image placeholder]</div>
+          <p class="meta">Inge price · 4 products</p>
+          <p class="price">₹14,999</p>
+          <p class="actions">
+            <a href="#details-mobile">Details</a> |
+            <a href="#add-mobile">Add</a>
+            
+          </p>
+        </article>
+
+        <!-- Card 2: Bike (top-right) -->
+        <article id="bike" class="product" aria-labelledby="bikeTitle">
+          <header>
+            <h2 id="bikeTitle">Bike -- Roadster 125</h2>
+          </header>
+          <div class="media" aria-hidden="true">[Image placeholder]</div>
+          <p class="meta">Model: Classic</p>
+          <p class="price">₹69,999</p>
+          <p class="actions">
+            <a href="#details-bike">Details</a> |
+            <a href="#add-bike">Add</a>
+          </p>
+        </article>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row">
+        <!-- Card 3: Clothes (bottom-left) -->
+        <article id="clothes" class="product" aria-labelledby="clothesTitle">
+          <header>
+            <h2 id="clothesTitle">Clothes -- Designer Kurta</h2>
+          </header>
+          <div class="media" aria-hidden="true">[Image placeholder]</div>
+          <p class="meta">Size: M/L · Cotton</p>
+          <p class="price">₹999</p>
+          <p class="actions">
+            <a href="#details-clothes">Details</a> |
+            <a href="#add-clothes">Add</a>
+          </p>
+        </article>
+
+        <!-- Card 4: Chair (bottom-right) -->
+        <article id="chair" class="product" aria-labelledby="chairTitle">
+          <header>
+            <h2 id="chairTitle">Chair -- Comfort Seat</h2>
+          </header>
+          <div class="media" aria-hidden="true">[Image placeholder]</div>
+          <p class="meta">Ergonomic · 2 color</p>
+          <p class="price">₹3,499</p>
+          <p class="actions">
+            <a href="#details-chair">Details</a> |
+            <a href="#add-chair">Add</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Decorative footer line (semantic only) -->
+    <footer aria-hidden="true">
+      <hr />
+    </footer>
+  </main>
+</body>
+</html>
